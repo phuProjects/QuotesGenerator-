@@ -1,13 +1,9 @@
-import QuoteGen from './QuoteGen.jsx'
+import QuoteGenerator from './components/QuoteGenerator'
 
-function App(){
-
-  return(
+export default function App(){
+    return(
         <>
-          <QuoteGen/>
-
+        <QuoteGenerator/>
         </>
-        )
+    )
 }
-
-export default App
